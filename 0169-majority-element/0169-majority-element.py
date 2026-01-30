@@ -8,7 +8,8 @@ class Solution:
             else:
                 ct-=1   
                 if ct==0:
-                    big=nums[i] 
+                    big=nums[i]
+                    ct=1 
                     
         return big                
         
